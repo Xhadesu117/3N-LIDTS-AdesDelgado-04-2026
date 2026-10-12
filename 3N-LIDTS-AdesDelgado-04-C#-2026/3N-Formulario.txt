@@ -1,6 +1,0 @@
- Nombre: Ades Yasir
- Apellidos: Gómez Delgado
- Telefono: 9611228814
- Edad: 20
- Estatura: 1.68
- Genero: Masculino

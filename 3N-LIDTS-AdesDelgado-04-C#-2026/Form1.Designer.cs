@@ -33,11 +33,11 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
-            txbNombre = new TextBox();
-            txbApellidos = new TextBox();
-            txbTelefono = new TextBox();
-            txbEdad = new TextBox();
-            txbEstatura = new TextBox();
+            tbNombre = new TextBox();
+            tbApellidos = new TextBox();
+            tbTelefono = new TextBox();
+            tbEdad = new TextBox();
+            tbEstatura = new TextBox();
             groupBox1 = new GroupBox();
             rbOtro = new RadioButton();
             rbMasculino = new RadioButton();
@@ -97,40 +97,40 @@
             label5.TabIndex = 4;
             label5.Text = "ESTATURA: ";
             // 
-            // txbNombre
+            // tbNombre
             // 
-            txbNombre.Location = new Point(168, 53);
-            txbNombre.Name = "txbNombre";
-            txbNombre.Size = new Size(273, 23);
-            txbNombre.TabIndex = 5;
+            tbNombre.Location = new Point(168, 53);
+            tbNombre.Name = "tbNombre";
+            tbNombre.Size = new Size(273, 23);
+            tbNombre.TabIndex = 5;
             // 
-            // txbApellidos
+            // tbApellidos
             // 
-            txbApellidos.Location = new Point(168, 88);
-            txbApellidos.Name = "txbApellidos";
-            txbApellidos.Size = new Size(273, 23);
-            txbApellidos.TabIndex = 6;
+            tbApellidos.Location = new Point(168, 88);
+            tbApellidos.Name = "tbApellidos";
+            tbApellidos.Size = new Size(273, 23);
+            tbApellidos.TabIndex = 6;
             // 
-            // txbTelefono
+            // tbTelefono
             // 
-            txbTelefono.Location = new Point(168, 126);
-            txbTelefono.Name = "txbTelefono";
-            txbTelefono.Size = new Size(273, 23);
-            txbTelefono.TabIndex = 7;
+            tbTelefono.Location = new Point(168, 126);
+            tbTelefono.Name = "tbTelefono";
+            tbTelefono.Size = new Size(273, 23);
+            tbTelefono.TabIndex = 7;
             // 
-            // txbEdad
+            // tbEdad
             // 
-            txbEdad.Location = new Point(168, 165);
-            txbEdad.Name = "txbEdad";
-            txbEdad.Size = new Size(273, 23);
-            txbEdad.TabIndex = 8;
+            tbEdad.Location = new Point(168, 165);
+            tbEdad.Name = "tbEdad";
+            tbEdad.Size = new Size(273, 23);
+            tbEdad.TabIndex = 8;
             // 
-            // txbEstatura
+            // tbEstatura
             // 
-            txbEstatura.Location = new Point(168, 205);
-            txbEstatura.Name = "txbEstatura";
-            txbEstatura.Size = new Size(273, 23);
-            txbEstatura.TabIndex = 9;
+            tbEstatura.Location = new Point(168, 205);
+            tbEstatura.Name = "tbEstatura";
+            tbEstatura.Size = new Size(273, 23);
+            tbEstatura.TabIndex = 9;
             // 
             // groupBox1
             // 
@@ -205,11 +205,11 @@
             Controls.Add(btnLimpiar);
             Controls.Add(btnGuardar);
             Controls.Add(groupBox1);
-            Controls.Add(txbEstatura);
-            Controls.Add(txbEdad);
-            Controls.Add(txbTelefono);
-            Controls.Add(txbApellidos);
-            Controls.Add(txbNombre);
+            Controls.Add(tbEstatura);
+            Controls.Add(tbEdad);
+            Controls.Add(tbTelefono);
+            Controls.Add(tbApellidos);
+            Controls.Add(tbNombre);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -230,11 +230,11 @@
         private Label label3;
         private Label label4;
         private Label label5;
-        private TextBox txbNombre;
-        private TextBox txbApellidos;
-        private TextBox txbTelefono;
-        private TextBox txbEdad;
-        private TextBox txbEstatura;
+        private TextBox tbNombre;
+        private TextBox tbApellidos;
+        private TextBox tbTelefono;
+        private TextBox tbEdad;
+        private TextBox tbEstatura;
         private GroupBox groupBox1;
         private RadioButton rbOtro;
         private RadioButton rbMasculino;
